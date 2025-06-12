@@ -1,6 +1,6 @@
 # GCP Storage Bucket para Terraform State
 
-Este directorio contiene la configuración de Terraform para crear un bucket de Google Cloud Storage que se usará para almacenar el estado de Terraform del proyecto [EcommerceGZam](https://github.com/EstebanGZam/ecommerce-microservice-backend-app).
+Este directorio contiene la configuración de Terraform para crear un bucket de Google Cloud Storage que se usará para almacenar el estado de Terraform del proyecto [EcommerceCoZam](https://github.com/EstebanCoZam/ecommerce-microservice-backend-app).
 
 ## 📋 Descripción
 
@@ -322,4 +322,4 @@ terraform show
 
 **Última actualización**: Mayo 2025
 **Versión**: 2.0  
-**Mantenido por**: EstebanGZam
+**Mantenido por**: EstebanCoZam

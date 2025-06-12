@@ -1,6 +1,6 @@
-# 🏗️ Infraestructura EcommerceGZam
+# 🏗️ Infraestructura EcommerceCoZam
 
-Repositorio de infraestructura como código (IaC) para el proyecto [EcommerceGZam](https://github.com/EstebanGZam/ecommerce-microservice-backend-app) usando Terraform con arquitectura híbrida Azure-GCP.
+Repositorio de infraestructura como código (IaC) para el proyecto [EcommerceCoZam](https://github.com/EstebanCoZam/ecommerce-microservice-backend-app) usando Terraform con arquitectura híbrida Azure-GCP.
 
 ## 🚀 Arquitectura
 
@@ -119,7 +119,7 @@ az aks scale --resource-group <rg> --name <cluster> --node-count 3
 
 - **Issues**: Crear issue en este repositorio
 - **Documentación**: Ver READMEs específicos en cada directorio
-- **Proyecto principal**: [EcommerceGZam](https://github.com/EstebanGZam/ecommerce-microservice-backend-app)
+- **Proyecto principal**: [EcommerceCoZam](https://github.com/EstebanCoZam/ecommerce-microservice-backend-app)
 
 ## 📝 Notas Importantes
 
@@ -130,5 +130,5 @@ az aks scale --resource-group <rg> --name <cluster> --node-count 3
 
 ---
 
-**Mantenido por**: [EstebanGZam](https://github.com/EstebanGZam)  
+**Mantenido por**: [EstebanCoZam](https://github.com/EstebanCoZam)  
 **Última actualización**: Mayo 2025  
