@@ -184,5 +184,9 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
-aks-cluster/.terraform.lock.hcl
-gcp-bucket/.terraform.lock.hcl
+environments/prod/.terraform.lock.hcl
+gcp-registry/.terraform.lock.hcl
+shared/gcp-registry/.terraform.lock.hcl
+shared/gcp-bucket/.terraform.lock.hcl
+environments/stage/.terraform.lock.hcl
+environments/dev/.terraform.lock.hcl
