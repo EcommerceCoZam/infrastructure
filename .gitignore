@@ -190,3 +190,4 @@ shared/gcp-registry/.terraform.lock.hcl
 shared/gcp-bucket/.terraform.lock.hcl
 environments/stage/.terraform.lock.hcl
 environments/dev/.terraform.lock.hcl
+shared/vm-devops/.terraform.lock.hcl

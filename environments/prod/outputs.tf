@@ -1,25 +1,34 @@
-# DevOps VM Outputs
-output "devops_vm_name" {
-  description = "Name of the DevOps VM"
-  value       = module.devops_vm.vm_instance_name
+# AKS Outputs
+output "aks_cluster_name" {
+  description = "Name of the AKS cluster"
+  value       = module.aks_prod.aks_cluster_id
 }
 
-output "devops_vm_external_ip" {
-  description = "External IP of the DevOps VM"
-  value       = module.devops_vm.external_ip
+output "aks_host" {
+  description = "AKS cluster endpoint"
+  value       = module.aks_prod.host
+  sensitive   = true
 }
 
-output "devops_vm_internal_ip" {
-  description = "Internal IP of the DevOps VM"
-  value       = module.devops_vm.internal_ip
+output "aks_client_certificate" {
+  description = "AKS client certificate"
+  value       = module.aks_prod.client_certificate
+  sensitive   = true
 }
 
-output "ssh_connections" {
-  description = "SSH connection commands"
-  value       = module.devops_vm.ssh_connections
+output "aks_client_key" {
+  description = "AKS client key"
+  value       = module.aks_prod.client_key
+  sensitive   = true
 }
 
-output "devops_services_urls" {
-  description = "URLs for DevOps services"
-  value       = module.devops_vm.devops_services_urls
+output "aks_cluster_ca_certificate" {
+  description = "AKS cluster CA certificate"
+  value       = module.aks_prod.cluster_ca_certificate
+  sensitive   = true
+}
+
+output "resource_group_name" {
+  description = "Name of the resource group"
+  value       = azurerm_resource_group.prod.name
 }
